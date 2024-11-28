@@ -217,6 +217,7 @@ controller.player4.A.onEvent(ControllerButtonEvent.Pressed, function () {
     }
 });
 ebe.setImage(assets.image`ebe`)
+npc.setStayInScreen(true)
 // Kazananı ilan et
 game.onUpdate(function () {
     if (activePlayers.length == 1) {
